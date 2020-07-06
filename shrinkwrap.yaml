@@ -1,0 +1,16 @@
+dependencies:
+  tiddlywiki: 5.1.19
+packages:
+  /tiddlywiki/5.1.19:
+    bundledDependencies: []
+    dev: false
+    engines:
+      node: '>=0.8.2'
+    hasBin: true
+    resolution:
+      integrity: sha512-G7JnwrQJ6d2ue49yaBl7WzmTOV/WH/mm4WgknChr6z8sSUVU+czPoYBXfwqHOuCbdZqWRPjiYfjkdm+eUiWodw==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  tiddlywiki: ^5.1.19
