@@ -1,0 +1,13 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "MyWiki",
+  "description": "A description",
+  "scripts": {
+    "start": "cd .data && (test -d wiki || tiddlywiki wiki --init server) && tiddlywiki wiki --listen $SERVEROPTS"
+  },
+  "dependencies": {
+    "tiddlywiki": "^5.1.19"
+  }
+}
